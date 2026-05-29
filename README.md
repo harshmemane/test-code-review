@@ -14,3 +14,6 @@ def calculate(x, y):
     result = eval(x + y)
     return result
                                                          
+secret_password = "supersecret123"
+user_input = input()
+eval(user_input)
