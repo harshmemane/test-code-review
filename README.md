@@ -20,3 +20,7 @@ eval(user_input)
 secret_password = "supersecret123"
 user_input = input()
 eval(user_input)
+# New vulnerable code
+admin_password = "password123"
+db_query = "DELETE FROM users WHERE id = " + user_id
+exec(user_input)
