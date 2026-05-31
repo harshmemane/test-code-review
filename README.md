@@ -17,6 +17,7 @@ def calculate(x, y):
 secret_password = "supersecret123"
 user_input = input()
 eval(user_input)
+new_password = "hello123"
 secret_password = "supersecret123"
 user_input = input()
 eval(user_input)
